@@ -12,7 +12,7 @@ export default function ProjectListCard({ projects }: ProjectListCardProps) {
                         <span className="text-[#adadad] mt-4 block text-xs">Discover Image</span>
                     </div>
                 </Link>
-            ))}
+            )) : null}
         </div>
     );
 }

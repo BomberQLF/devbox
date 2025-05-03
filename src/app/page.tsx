@@ -1,4 +1,4 @@
-import ProjectListCard from "@/(Components)/ProjectListCard/ProjectListCard";
+import ProjectListCard from "@/components/ProjectListCard/ProjectListCard";
 
 export default function Home() {
   const projects = [
@@ -37,13 +37,11 @@ export default function Home() {
   return (
     <main className="min-h-screen flex flex-col justify-center items-center px-4 sm:px-8 lg:px-16">
       <section className="flex flex-col items-center w-full max-w-6xl">
-        {/* Titre centré et aligné */}
         <div className="flex flex-col justify-center items-start w-full mb-12">
           <h1 className="text-[#adadad] font-extrabold uppercase text-4xl sm:text-5xl lg:text-6xl">
             Devbox - Way To Success
           </h1>
         </div>
-        {/* Liste des projets */}
         <div className="w-full">
           <ProjectListCard projects={projects} />
         </div>
