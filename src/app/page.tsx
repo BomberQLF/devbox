@@ -3,9 +3,9 @@ import ProjectListCard from "@/components/ProjectListCard/ProjectListCard";
 export default function Home() {
   const projects = [
     {
-      name: "Project 1",
-      description: "Description of project 1",
-      link: "/project1",
+      name: "Character Count",
+      description: "Analyzes your text in real-time.",
+      link: "/charactercount",
     },
     {
       name: "Project 2",
