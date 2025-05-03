@@ -1,5 +1,4 @@
 import Image from "next/image"
-// import Logo from "/assets/char-counter/images/logo-dark-theme.svg"
 
 export default function Header() {
     return (
